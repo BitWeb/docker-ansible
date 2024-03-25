@@ -30,7 +30,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           file: Dockerfile.core
-          tags: bitweb/ansible:latest,bitweb/ansible:core
+          tags: bitweb/ansible:latest,bitweb/ansible:core-v2
       -
         name: Build and push full image
         uses: docker/build-push-action@v5
@@ -38,4 +38,4 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           file: Dockerfile.full
-          tags: bitweb/ansible:full
+          tags: bitweb/ansible:full-v9
