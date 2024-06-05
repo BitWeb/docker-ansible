@@ -2,7 +2,7 @@
 
 Docker image for using Ansible in CI pipelines, based on `python:3.12-slim-bookworm`.
 
-**Additional included Packages:**
+**Included Packages:**
 - `jq`
 - `git`
 - `openssh-client`
