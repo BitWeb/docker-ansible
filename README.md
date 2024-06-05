@@ -1,6 +1,12 @@
 # docker-ansible
 
-Adds latest Ansible and `jq` to official Python 3 Docker image, for use in CI pipelines.
+Docker image for using Ansible in CI pipelines, based on `python:3.12-slim-bookworm`.
+
+**Included Packages:**
+- `jq`
+- `git`
+- `openssh-client`
+- `sshpass`
 
 Images are publised to Docker Hub [bitweb/ansible](https://hub.docker.com/r/bitweb/ansible).
 
