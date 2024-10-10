@@ -6,6 +6,7 @@ Docker image for using Ansible in CI pipelines, based on `python:3.12-slim-bookw
 - `jq`
 - `git`
 - `openssh-client`
+- `rsync`
 - `sshpass`
 
 Images are publised to Docker Hub [bitweb/ansible](https://hub.docker.com/r/bitweb/ansible).
